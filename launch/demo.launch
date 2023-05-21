@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find turtlebot3_teleop)/launch/turtlebot3_teleop_key.launch"/>
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find robot_odom_sim)/demo.rviz"/>
+  <node name="$(anon sim)" pkg="robot_odom_sim" type="sim.py"/>
+</launch>
