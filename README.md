@@ -71,7 +71,7 @@ class Wheel:
 2. Для отображения маршрута используется объект Path, считывающий данные из указанного источника в формате `nav_msgs/Path`, представляющем из себя массив положений `Pose`
 
 Результат приведён на изображении ниже
-![alt_text](https://github.com/MarkT5/robot_odom_sim/blob/main/img/Screenshot%20from%202023-05-21%2003-03-29.png, "результат моделирования")
+![alt_text](https://github.com/MarkT5/robot_odom_sim/blob/main/img/Screenshot%20from%202023-05-21%2003-03-29.png "результат моделирования")
 
 ## Запуск
 После успешной установки ROS и моделей turtlebot3 и turtlebot3_msgs из дериктории `~catkin_ws/src` выполнить команду
